@@ -1,0 +1,90 @@
+{
+  "usuarios": [
+    {
+      "firstName": "Enzo",
+      "lastName": "Yoshida",
+      "username": "Ewzxyh",
+      "email": "yoshidaenzo@hotmail.com",
+      "cep": "74343520",
+      "phone": "62984268492",
+      "acceptsMarketing": true,
+      "password": "Ehy29083",
+      "id": 1
+    }
+  ],
+  "categorias": [
+    {
+      "name": "Ajuda emergencial para a Ucrânia"
+    },
+    {
+      "name": "Animais"
+    },
+    {
+      "name": "Artes criativas"
+    },
+    {
+      "name": "Competições"
+    },
+    {
+      "name": "Comunidade"
+    },
+    {
+      "name": "Desejos"
+    },
+    {
+      "name": "Educação"
+    },
+    {
+      "name": "Emergências"
+    },
+    {
+      "name": "Esportes"
+    },
+    {
+      "name": "Eventos"
+    },
+    {
+      "name": "Família"
+    },
+    {
+      "name": "Funerais e memoriais"
+    },
+    {
+      "name": "Medicina"
+    },
+    {
+      "name": "Negócio"
+    },
+    {
+      "name": "Organização religiosa/espiritual"
+    },
+    {
+      "name": "Outras"
+    },
+    {
+      "name": "Recém-casados"
+    },
+    {
+      "name": "Trabalho voluntário"
+    },
+    {
+      "name": "Viagem"
+    }
+  ],
+  "campanhas": [
+    {
+      "user_id": 1,
+      "value": 1000.00,
+      "zip_code": "74343520",
+      "category_id": 1,
+      "description": "Ajuda para a Ucrânia"
+    },
+    {
+      "user_id": 1,
+      "value": 500.00,
+      "zip_code": "74343520",
+      "category_id": 2,
+      "description": "Ajuda para animais abandonados"
+    }
+  ]
+}

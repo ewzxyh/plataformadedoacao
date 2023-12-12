@@ -1,0 +1,80 @@
+.textRegisterForm {
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.RegisterForm {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.registerForm {
+    max-width: 400px;
+    margin: 50px auto;
+    font-family: Arial, sans-serif;
+}
+
+.registerForm input[type='text'],
+.registerForm input[type='email'],
+.registerForm input[type='password'],
+.registerForm input[type='tel'],
+.registerForm select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.registerForm button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0073e6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.registerForm button:hover {
+    background-color: #0056b3;
+}
+
+.registerForm .error {
+    color: red;
+    margin: 10px 0;
+}
+
+.registerForm .success {
+    color: green;
+    margin: 10px 0;
+}
+
+.registerForm label {
+    display: block;
+    margin-top: 20px;
+}
+
+.registerForm .checkbox-group {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.registerForm .checkbox-group input {
+    margin-right: 10px;
+}
+
+.checkboxLabel {
+    display: flex;
+    align-items: center; /* Isso garantirá que o checkbox e o texto estejam alinhados verticalmente */
+    cursor: pointer;
+}
+
+.checkboxInput {
+    margin-right: 8px; /* Isso adiciona um espaço entre o checkbox e o texto da label */
+}

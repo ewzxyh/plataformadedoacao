@@ -1,0 +1,82 @@
+.textLoginForm {
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.loginForm {
+    width: 80%;
+    margin: 20px auto;
+}
+
+
+.loginForm {
+    max-width: 400px;
+    margin: 200px auto;
+    font-family: Arial, sans-serif;
+}
+
+.inputField {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.submitButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #0073e6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.textRegister1{
+    margin-top: 10px;
+}
+
+.textRegister2{
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #000;
+}
+
+.textRegister2:hover{
+    color: #0073e6;
+}
+
+.submitButton:hover {
+    background-color: #0056b3;
+}
+
+.errorMessage {
+    color: #ff3860;
+    background-color: #ffe5e7;
+    border-color: #ff3860;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.successMessage {
+    color: #23d160;
+    background-color: #effaf1;
+    border-color: #23d160;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+  

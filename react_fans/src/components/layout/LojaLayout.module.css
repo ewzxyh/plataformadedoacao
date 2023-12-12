@@ -1,0 +1,35 @@
+.storeLayout {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+    margin-top: 4em;
+    padding: 0em 0em 4em 6em;
+}
+
+.categorySection {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.slick-slider {
+    margin-bottom: 20px;
+}
+
+
+.slick-track {
+    display: flex;
+    align-items: center;
+}
+
+.slick-slide {
+    float: none;
+}
+
+.firstHalf {
+    color: #333;
+}
+
+.secondHalf {
+    color: rgb(77, 77, 77);
+}

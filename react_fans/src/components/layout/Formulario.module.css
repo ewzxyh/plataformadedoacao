@@ -1,0 +1,49 @@
+/* Formulario.module.css */
+
+/* Estilização básica do formulário */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+  /* Estilo para os campos de entrada */
+  .inputField {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+  /* Estilo para o botão de envio */
+  .submitButton {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+  .submitButton:hover {
+    background-color: #0056b3;
+}
+
+  /* Estilo para mensagens de sucesso */
+  .sucesso {
+    color: #34c332;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+  /* Estilo para mensagens de erro */
+  .erro {
+    color: #ff3030;
+    font-size: 18px;
+    margin-top: 10px;
+}

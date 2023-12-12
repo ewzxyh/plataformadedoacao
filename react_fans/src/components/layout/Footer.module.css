@@ -1,0 +1,90 @@
+.footer {
+    background-color: #d4e9ff;
+    padding: 20px 0;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.logoSection {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.logo {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.brandName {
+    margin-left: 10px;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #1E3050;
+}
+
+.linksSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.linksColumn {
+    margin-right: 90px;
+    margin-top: 2.2em;
+}
+
+.linksColumn:last-child {
+  margin-right: 60px; 
+}
+
+
+.linksColumn h4 {
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.linksColumn a {
+    display: block;
+    margin-bottom: 10px;
+    color: #2f2f2f;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.linksColumn a:hover {
+    text-decoration: none;
+    color: #0099ff;
+}
+
+.footerEnd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #d4e9ff;
+    color: #333;
+    font-size: 14px;
+    border-top: 1px solid #000f514c;
+}
+
+.footerEnd a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footerEnd a:hover {
+    color: #0099ff;
+    text-decoration: none;
+}

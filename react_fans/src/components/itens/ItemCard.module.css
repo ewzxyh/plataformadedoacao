@@ -1,0 +1,29 @@
+.card-img {
+  border-radius: 8px !important;
+}
+.item-card{
+  border-radius: 8px !important;
+  width: 260px !important;
+}
+
+.card {
+    width: 100% !important;
+    max-width: 250px !important;
+    height: auto !important;
+    margin-right: 15px !important;
+}
+
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    border-radius: 15px !important;
+    padding: 10px !important;
+}
+
+.card-title {
+    font-size: 1.2rem !important;
+    margin-bottom: 5px !important;
+}
+
+.card-text {
+    font-size: 1rem !important;
+}

@@ -1,0 +1,187 @@
+.nav_wrapper {
+    font-size: 0.85em;
+    font-weight: 200;
+    z-index: 10;
+    border-radius: 30px;
+    padding: 2em 4em 0 4em;
+    margin-bottom: -10em;
+    position: relative;
+}
+
+.navBar{
+    border-radius: 50px;
+    height: 70px;
+}
+
+.nav_wrapper ul li a {
+    color: #fff;
+}
+
+.navbar-toggler {
+    color: #fff;
+}
+
+.nav-item {
+    text-align: left !important;
+    padding: 4px 0;
+    border-bottom: 1px solid #4b4b4b;
+}
+
+.logoNavBar{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.logo{
+    margin-top: 0;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.brandName {
+    margin-left: 10px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #1E3050;
+}
+
+.searchForm{
+    margin-top: 0px !important;
+    width: 40%;
+    height: 55px;
+    transform: translateX(10%);
+    border-radius: 50px;
+    background-color: #fff;
+    border: none !important;
+    outline: none !important;
+    padding: 0 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #d4e9ff !important;
+}
+
+.searchInput{
+    width: 100%;
+    height: 100%;
+    border: none !important;
+    outline: none !important;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #d4e9ff !important;
+}
+
+.searchInput:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: transparent !important;
+}
+
+.searchButton:hover{
+    width: 100px;
+    height: 40px;
+    border: #0099ff3b 1px solid !important;
+    outline: none !important;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #0099ff3b !important;
+}
+
+.campanha{
+    margin-top: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #1E3050 !important;
+    font-size: 1.3em !important;
+    font-weight: 350 !important;
+    transform: translateX(10%);
+}
+
+.campanha:hover{
+    opacity: 0.7;
+    color: #0099ff !important;
+}
+
+.comoFunciona{
+    margin-top: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #1E3050 !important;
+    font-size: 1.3em !important;
+    font-weight: 350 !important;
+    transform: translateX(-5%);
+}
+
+.comoFunciona:hover{
+    opacity: 0.7;
+    color: #0099ff !important;
+}
+
+.startButton{
+    margin-top: 5px;
+    width: auto;
+    height: 45px;
+    border: #0099ff 2px solid !important;
+    border-radius: 50px !important;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #0099ff !important;
+    font-size: 1.3em !important;
+    font-weight: 600 !important;
+}
+
+.startButton:hover{
+    background-color: #0099ff7e !important;
+    color: #fff !important;
+}
+
+.account{
+    width: 25px;
+    height: 25px;
+    margin-top: 0px;
+    padding-left: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #333 !important;
+}
+
+.account:hover{
+    opacity: 0.7;
+}
+
+.dropDownMenu{
+    color: #333 !important;
+    background-color: #1E3050 !important;
+    border-radius: 50px;
+    padding: 0 -20px;
+    font-size: 1.2em;
+    max-width: 100%; 
+    margin-left: 5px;
+    transform: translateX(0%);
+}
+
+.dropDownMenu:hover{
+    opacity: 1;
+}
+
+.usernameDisplay {
+    color: #333 !important;
+    padding: 0 15px; 
+    font-size: 1rem; 
+    line-height: 50px; 
+    display: inline-block; 
+}

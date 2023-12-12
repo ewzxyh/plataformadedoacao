@@ -1,0 +1,81 @@
+.startSection {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 20px;
+    background-color: #cbe4ffbe;
+    border-radius: 20px;
+    margin: 4em 4em 6em 4em;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textContent, .imageContent {
+  flex: 1;
+  text-align: center;
+}
+
+.textContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    padding-left: 5em;
+}
+
+.textContent h2 {
+    font-size: 3rem;
+    color: #151515;
+    margin-bottom: 0.5rem;
+}
+
+.textContent p {
+    font-size: 2rem;
+    color: #2e2e2e;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 50px;
+}
+
+.greenButton {
+    background-color: #0099ff;
+    color: white;
+    border: 2px solid #0099ff;
+}
+
+.greenButton:hover {
+    background-color: #0082e697;
+}
+
+.outlineButton {
+    background-color: transparent;
+    border: 1px solid #0099ff;
+    color: #0099ff;
+}
+
+.outlineButton:hover {
+    background-color: #0099ff83;
+    color: white;
+}
+
+.imageContent img {
+    max-width: 80%;
+}

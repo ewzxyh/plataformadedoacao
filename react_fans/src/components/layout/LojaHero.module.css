@@ -1,0 +1,61 @@
+.heroLayout{
+    display: flex;
+    justify-content: space-between;
+    padding: 6em 0em 0em 4em;
+    width: 85%;
+}
+
+.heroText{
+    display: flex;
+}
+
+.text1Hero{
+    color: #333;
+    font-size: 3em;
+}
+
+.text2Hero{
+    color: #535353;
+}
+
+.heroLayout2{
+    padding-left: 8em;
+    width: 70%;
+}
+
+.column1Hero{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 1em;
+}	
+
+.semDecoracao {
+    text-decoration: none;
+    color: #333;
+}
+
+.linkEspecialista {
+    color: rgb(0, 102, 255); 
+    text-decoration: underline;
+}
+
+
+.column2Hero{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.img1Hero{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.img2Hero{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
